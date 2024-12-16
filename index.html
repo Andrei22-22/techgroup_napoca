@@ -29,13 +29,15 @@
       padding: 20px;
 
     }
-header {
-  font-family: "Raleway", sans-serif;
-}
-footer {
-  font-family: "Raleway", sans-serif;
-  
-}
+
+    header {
+      font-family: "Raleway", sans-serif;
+    }
+
+    footer {
+      font-family: "Raleway", sans-serif;
+
+    }
 
     .carousel-inner p {
       color: white;
@@ -56,7 +58,7 @@ footer {
 
     .carousel-inner img {
       height: 50em;
-      
+
       object-fit: cover;
       box-sizing: border-box;
     }
@@ -105,15 +107,20 @@ footer {
   <h1 class="text-center">TechGroup Napoca</h1>
 
   <h2 id="despre-noi" class="text-center">Despre noi</h2>
-  <p>
-    TechGroup Napoca este o firmă de IT dedicată furnizării soluțiilor tehnologice personalizate pentru afaceri de
-    toate dimensiunile. Cu sediul în inima Transilvaniei, în Cluj-Napoca, suntem pasionați de inovare și de crearea
-    unor produse digitale care să răspundă nevoilor specifice ale clienților noștri.
-    La TechGroup Napoca, avem o echipă dinamică formată din experți în domeniul IT, care combină cunoștințele
-    tehnice de ultimă oră cu o abordare centrată pe client. Misiunea noastră este să transformăm ideile în realitate
-    digitală și să oferim suport continuu pentru creșterea afacerii tale.
-    Descoperă cum putem transforma tehnologia într-un avantaj competitiv pentru afacerea ta!
-  </p>
+  <div class="card bg-info">
+    <div class="card-body " >
+      <p class="text-dark">
+        TechGroup Napoca este o firmă de IT dedicată furnizării soluțiilor tehnologice personalizate pentru afaceri de
+        toate dimensiunile. Cu sediul în inima Transilvaniei, în Cluj-Napoca, suntem pasionați de inovare și de crearea
+        unor produse digitale care să răspundă nevoilor specifice ale clienților noștri.
+        La TechGroup Napoca, avem o echipă dinamică formată din experți în domeniul IT, care combină cunoștințele
+        tehnice de ultimă oră cu o abordare centrată pe client. Misiunea noastră este să transformăm ideile în realitate
+        digitală și să oferim suport continuu pentru creșterea afacerii tale.
+        Descoperă cum putem transforma tehnologia într-un avantaj competitiv pentru afacerea ta!
+      </p>
+    </div>
+  </div>
+
   <h3 class="text-center">Obiective</h3>
 
   <div id="carouselExampleCaptions" class="carousel slide">
@@ -129,7 +136,7 @@ footer {
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
         aria-label="Slide 5"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner text-dark">
       <div class="carousel-item active">
         <img src="imagini/futuristic.jpg" class="d-block w-100" alt="Oraș futuristic">
         <div class="carousel-caption d-none d-md-block">
@@ -181,21 +188,29 @@ footer {
     </button>
   </div>
   <div class="d-block d-md-none">
-    <p>Inovație continuă-ne propunem să fim mereu în pas cu cele mai noi tendințe tehnologice și să integrăm soluții
-      inovatoare care
-      aduc valoare reală clienților noștri.</p>
-    <p>Excelență în servicii-oferim soluții IT personalizate, scalabile și eficiente, adaptate fiecărui client,
-      indiferent de industria
-      în care activează sau de complexitatea cerințelor.</p>
-    <p>Colaborare și parteneriate durabile-oferim soluții IT personalizate, scalabile și eficiente, adaptate fiecărui
-      client, indiferent de industria
-      în care activează sau de complexitatea cerințelor.</p>
-    <p>Transformare digitală-sprijinim companiile să adopte tehnologii moderne pentru a-și optimiza procesele, a reduce
-      costurile și a-și
-      îmbunătăți performanța.</p>
-    <p>Responsabilitate socială-susținem inițiativele care contribuie la dezvoltarea comunității IT locale și promovăm
-      utilizarea etică a
-      tehnologiei.</p>
+    <div class="card">
+      <div class="card-body text-dark">
+        <p>Inovație continuă-ne propunem să fim mereu în pas cu cele mai noi tendințe tehnologice și să integrăm soluții
+          inovatoare care
+          aduc valoare reală clienților noștri.</p>
+        <p>Excelență în servicii-oferim soluții IT personalizate, scalabile și eficiente, adaptate fiecărui client,
+          indiferent de industria
+          în care activează sau de complexitatea cerințelor.</p>
+        <p>Colaborare și parteneriate durabile-oferim soluții IT personalizate, scalabile și eficiente, adaptate
+          fiecărui
+          client, indiferent de industria
+          în care activează sau de complexitatea cerințelor.</p>
+        <p>Transformare digitală-sprijinim companiile să adopte tehnologii moderne pentru a-și optimiza procesele, a
+          reduce
+          costurile și a-și
+          îmbunătăți performanța.</p>
+        <p>Responsabilitate socială-susținem inițiativele care contribuie la dezvoltarea comunității IT locale și
+          promovăm
+          utilizarea etică a
+          tehnologiei.</p>
+      </div>
+    </div>
+
   </div>
 
   <h2 id="servicii" class="text-center">Servicii</h2>
@@ -236,6 +251,7 @@ footer {
 
   <h2 id="locații" class="text-center">Locații</h2>
   <p>Ne găsiți sediile la următoarele locații din țară:</p>
+
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4">
